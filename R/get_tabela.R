@@ -1,5 +1,5 @@
 #' Extração de tabelas da SSP-SP
-#' Recebe uma URL
+#' Captura os dados das tabelas do site
 #'
 #' @export
 get_tabela <- function(){
