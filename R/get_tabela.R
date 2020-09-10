@@ -1,5 +1,5 @@
 #' Extração de tabelas da SSP-SP
-#' Captura os dados das tabelas do site
+#' Cria função para ser inserida dentro de map
 #'
 #' @export
 get_tabela <- function(){
