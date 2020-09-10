@@ -1,0 +1,16 @@
+Package: segurancaSP
+Title: Estatísticsas sobre violência contra as mulheres em SP
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Gabriela",
+           family = "Caesar",
+           role = c("aut", "cre"),
+           email = "gabriela.caesar.2020@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Coleta, organiza e apresenta de forma simples os dados mensais divulgados pela Secretaria de Segurança Pública de São Paulo (SSP-SP).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
