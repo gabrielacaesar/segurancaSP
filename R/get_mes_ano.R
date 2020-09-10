@@ -1,5 +1,5 @@
 #' Mês e ano do dado da SSP-SP
-#' Recebe uma URL
+#' Captura, limpa e separa em colunas mês e ano das tabelas
 #'
 #' @export
 get_mes_ano <- function(){
