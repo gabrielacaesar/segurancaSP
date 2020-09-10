@@ -1,5 +1,5 @@
 #' Extração de todas as tabelas da SSP-SP
-#' Recebe uma URL
+#' Extrai os dados de todas as tabelas do site
 #' @import purrr
 #' 
 #' @export
