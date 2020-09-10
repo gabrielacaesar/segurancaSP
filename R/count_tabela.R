@@ -1,5 +1,5 @@
 #' Contagem o número de tabelas da SSP-SP
-#' Recebe uma URL
+#' Diz quantas tabelas há no site
 #'
 #' @export
 count_tabela <- function(){
