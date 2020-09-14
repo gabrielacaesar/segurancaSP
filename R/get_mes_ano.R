@@ -1,6 +1,8 @@
 #' Mês e ano do dado da SSP-SP
 #' Captura, limpa e separa em colunas mês e ano das tabelas
 #'
+#'@import magrittr
+#'@import rvest
 #' @export
 get_mes_ano <- function(){
   "http://www.ssp.sp.gov.br/Estatistica/ViolenciaMulher.aspx" %>%
