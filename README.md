@@ -5,7 +5,7 @@
 
 Os dados não estão reunidos de forma consolidada em uma seção de dados abertos no site da SSP-SP. Este pacote tem como objetivo resolver esse problema com ajuda da programação em R. Este pacote é o projeto final para o curso online de ciência de dados 2 da Curso-R (turma de agosto/setembro de 2020). 
 
-Clique [aqui](https://www.gabrielacaesar.com/2020/09/08/captura-de-dados-ssp-sp/) para ler sobre a construção do código.
+Clique [aqui](https://github.com/gabrielacaesar/segurancaSP/blob/master/Rmd/2020-09-08-captura-de-dados-da-ssp-sp.md) ou [aqui](https://www.gabrielacaesar.com/2020/09/08/captura-de-dados-ssp-sp/) para ler sobre a construção do código.
 
 Atenção: este pacote está em constante atualização.
 
