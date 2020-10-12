@@ -5,7 +5,7 @@
 \title{URL da SSP-SP
 Recebe uma URL}
 \usage{
-get_url(x)
+get_url()
 }
 \arguments{
 \item{x}{de uma url}
