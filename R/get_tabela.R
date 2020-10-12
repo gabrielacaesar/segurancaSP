@@ -1,15 +1,19 @@
 #' Extração de tabelas da SSP-SP
+#'
 #' Cria função para ser inserida dentro de map
-#' @import magrittr
-#' @import rvest
+#'
+#' @param NULL
+#'
+#' @return tibble::tibble()
+#'
 #' @export
 get_tabela <- function(){
   "http://www.ssp.sp.gov.br/Estatistica/ViolenciaMulher.aspx" %>%
-    read_html() %>%
-    html_table() %>%
+    xml2::read_html() %>%
+    rvest::html_table() %>%
     .[[x]] %>%
     as.data.frame() %>%
-    rename("crime" = "") %>%
+    dplyr::rename("crime" = "") %>%
     janitor::clean_names() %>%
-    mutate(table_id = x)
+    dplyr::mutate(table_id = x)
 }

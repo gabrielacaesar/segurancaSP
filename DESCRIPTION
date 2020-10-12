@@ -15,4 +15,10 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
-    magrittr
+    magrittr,
+    janitor,
+    dplyr,
+    rvest,
+    xml2,
+    tidyr,
+    purrr
